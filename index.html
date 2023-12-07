@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sliding Puzzle Game</title>
+</head>
+<body>
+    <div id="controls-container">
+        <div id="timer">Time: 00:00</div>
+        <div id="controls">
+            <button class="button" id="pauseButton">Pause</button>
+            <button class="button" id="resumeButton">Resume</button>
+            <!-- Add the setting icon button -->
+            <div class="icon" id="settingsIcon">&#9881;</div>
+        </div>
+    </div>
+    <div class="puzzle-container" id="puzzle-container"></div>
+    <div id="message"></div>
+
+    <!-- Add the audio element for background music -->
+    <audio id="backgroundMusic" loop>
+        <source src="c:/Users/AB GRAPHICS/Downloads/Music/Yummu - Text Me Records _ Leviathe.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Add the audio element for swipe swoosh sound effect -->
+    <audio id="swipeSwooshSound">
+        <source src="c:/Users/AB GRAPHICS/Downloads/Music/Swipe Swoosh Transition Sound Effect.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
